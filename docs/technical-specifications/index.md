@@ -1,0 +1,19 @@
+---
+sidebar_label: "Technical Specifications"
+sidebar_position: 2
+tags:
+  [
+    Raspberry Pi,
+    Git,
+    Github,
+    Linux,
+    Google Assistant SDK,
+    VS Code,
+    HBO,
+    Jenkins,
+  ]
+---
+
+# Introduction
+
+Before you begin, you can either dive straight in by using the `sidebar` to have a linear read-through the developer docs. Alternatively, you may be interested in product or tool specific documentation. If this is you, use the tags at the bottom of the page to filter the docs to only those that pertain to the selected tag.

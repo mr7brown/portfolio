@@ -1,6 +1,6 @@
 ---
-sidebar_label: "Introduction"
-sidebar_position: 0
+sidebar_label: "HBO High-Definition Range"
+sidebar_position: 1
 tags:
   [
     Raspberry Pi,
@@ -9,19 +9,12 @@ tags:
     Linux,
     Google Assistant SDK,
     VS Code,
-    Data Analytics,
-    Infographic,
-    Data Visualization,
-    Adobe InDesign,
-    Adobe Illustrator,
-    Facebook,
-    Google,
     HBO,
-    Amazon,
+    Jenkins,
   ]
 ---
 
-# Welcome to Ashton's Portfolio
+# Welcome to Ashton's portfolio
 
 Here is a collection of projects I've completed over the past decade. Each project is grouped according to the intended audience. At the top of each doc is an introduction to the doc, including: my role in the project, doc publishing, and where I obtained the information to create the content.
 
