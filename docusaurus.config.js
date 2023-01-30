@@ -8,7 +8,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "Ashton Brown | Docs",
   tagline:
-    "For the past decade, I've help write, edit, develop, and engineer technical documentation...from product, API, and SDK docs to Audio/Video specs, and original research. And everything in-between. Here is a collection of my most impactful work.",
+    "For the past decade, I've help write, edit, develop, and engineer technical documentation...from Product, API, and SDK docs to Audio/Video specs, and original research. And everything in-between. Here is a collection of my most impactful work.",
   favicon: "img/favicon.ico",
   url: "https://github.com",
   baseUrl: "/portfolio/",
@@ -17,6 +17,14 @@ const config = {
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   deploymentBranch: "gh-pages",
+  themeConfig: {
+    algolia: {
+      apiKey: "",
+      indexName: "",
+      contextualSearch: true,
+      placeholder: "Search for portfolio docs by keyword(s)",
+    },
+  },
 
   presets: [
     [
