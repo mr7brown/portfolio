@@ -6,12 +6,6 @@ tags: [Git, Github, Linux, Google Assistant SDK, VS Code, HBO]
 
 # Overview
 
-:::note Note:
-
-This guide assumes that you have access to HBO's GitLab instance and have installed the Gatsby CLI.
-
-:::
-
 This guide provides instructions for establishing a connection with the GitLab repo for the Partner Hub. By the end, you will:
 
 1. Clone the `/partnerhub/web` repo.
@@ -19,6 +13,12 @@ This guide provides instructions for establishing a connection with the GitLab r
 3. Push a test commit.
 
 After successfully pushing a test commit, you can begin contributing to the Partner Hub.
+
+:::note Note:
+
+This guide assumes that you have access to HBO's GitLab instance and have installed the Gatsby CLI.
+
+:::
 
 ## Clone the Partner Hub Repo
 

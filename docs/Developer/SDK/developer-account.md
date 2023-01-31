@@ -6,13 +6,13 @@ tags: [Account Configuration, Google Assistant SDK, VS Code, Google]
 
 # Configure Developer Account and Account Settings
 
-:::note Note:
+<!-- :::note Note:
 
 For this doc, I was the sole author. To write this Raspberry Pi configuration doc, I worked directly with Google engineers to test and configure the Pi to configuire and test the USB microphone/speaker.
 
 The software and tools used to complete this doc can be found under **Tags** at the end of the doc.
 
-:::
+::: -->
 
 ## Overview
 

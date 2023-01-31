@@ -8,8 +8,6 @@ tags: [Data Analytics, Amazon, Advertising]
 
 :::note Note:
 
-To write this article I collaborated with the lead researcher to understand the data collected for the purchas of improving new-to-brand customer growth. In this 2021 study we analyze two Prime Day advertising strategies leveraged more often by top performers than lower performers on Amazon.
-
 Here is a [link to the published article](https://advertising.amazon.com/en-us/library/research/prime-day-ad-strategies-used-by-top-performers/?ref_=a20m_us_libr) on Amazon's Advertising site.
 
 :::

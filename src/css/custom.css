@@ -77,12 +77,14 @@ h1.hero__title {
 /*On page alert styling*/
 
 .alert {
-  background-color: #3369e7;
-  color: white;
+  background-color: #f5f6fa;
+  border: none;
+  box-shadow: 1px 1px 1px 1px #dcdde1;
+  color: rgb(71, 71, 72);
 }
 
 .alert a {
-  color: white;
+  color: rgb(71, 71, 72);
 }
 
 .admonitionIcon_node_modules-\@docusaurus-theme-classic-lib-theme-Admonition-styles-module
@@ -90,7 +92,7 @@ h1.hero__title {
   display: inline-block;
   height: 1.6em;
   width: 1.6em;
-  fill: white !important;
+  fill: rgb(71, 71, 72) !important;
 }
 
 /* Sidebar styling */

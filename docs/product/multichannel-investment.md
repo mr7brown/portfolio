@@ -8,8 +8,6 @@ tags: [Data Analytics, Amazon, Advertising]
 
 :::note Note:
 
-To write this article I collaborated with the lead researcher to understand the data collected for the purchas of improving new-to-brand customer growth.
-
 Here is a [link to the published article](https://advertising.amazon.com/en-us/library/research/multichannel-investments-help-sales-and-growth/?ref_=a20m_us_libr) on Amazon's Advertising site.
 
 :::
