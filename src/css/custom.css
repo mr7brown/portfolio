@@ -76,7 +76,7 @@ h1.hero__title {
 
 /*On page alert styling*/
 
-.alert {
+/* .alert {
   background-color: #f5f6fa;
   border: none;
   box-shadow: 1px 1px 1px 1px #dcdde1;
@@ -85,15 +85,15 @@ h1.hero__title {
 
 .alert a {
   color: rgb(71, 71, 72);
-}
+} */
 
-.admonitionIcon_node_modules-\@docusaurus-theme-classic-lib-theme-Admonition-styles-module
+/* .admonitionIcon_node_modules-\@docusaurus-theme-classic-lib-theme-Admonition-styles-module
   svg {
-  display: inline-block;
+  display: none;
   height: 1.6em;
   width: 1.6em;
   fill: rgb(71, 71, 72) !important;
-}
+} */
 
 /* Sidebar styling */
 
