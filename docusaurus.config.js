@@ -22,7 +22,8 @@ const config = {
       apiKey: "",
       indexName: "",
       contextualSearch: true,
-      placeholder: "Search for portfolio docs by keyword(s)",
+      placeholder: "Search Ashton's portfolio",
+      appID: "GOUXA0DEE6",
     },
   },
 
