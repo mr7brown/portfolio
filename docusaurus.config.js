@@ -23,7 +23,6 @@ const config = {
       indexName: "",
       contextualSearch: true,
       placeholder: "Search Ashton's portfolio",
-      appID: "GOUXA0DEE6",
     },
   },
 
@@ -137,6 +136,16 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+};
+
+module.exports = {
+  themeConfig: {
+    colorMode: {
+      defaultMode: "dark",
+      disableSwitch: false,
+      respectPrefersColorScheme: false,
+    },
+  },
 };
 
 module.exports = config;
