@@ -6,9 +6,9 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Ashton Brown | Docs",
+  title: "Ashton G. Brown | Portfolio",
   tagline:
-    "For the past decade, I've help write, edit, develop, and engineer technical documentation...from Product, API, and SDK docs to Audio/Video specs, and original research. And everything in-between. Here is a collection of my most impactful work.",
+    "For the past decade, I've published technical documentation—from API & SDK docs to specifications & product documentation. And everything in-between. Here is a collection of my most impactful work.",
   favicon: "img/favicon.ico",
   url: "https://github.com",
   baseUrl: "/portfolio/",
