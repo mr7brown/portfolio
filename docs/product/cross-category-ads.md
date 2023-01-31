@@ -6,11 +6,11 @@ tags: [Data Analytics, Amazon, Advertising]
 
 # How cross-category ads improve reach for coffee advertisers
 
-<!-- :::note Note:
+:::note Note:
 
 Here is a [link to the published article](https://advertising.amazon.com/en-us/library/research/coffee-marketing/?ref_=a20m_us_libr) on Amazon's Advertising site.
 
-::: -->
+:::
 
 Advertisers currently use Amazon Ads performance metrics to view and optimize their return on ad spend. They especially optimize for, and advertise to, audiences who’ve previously purchased from and shopped for their product or product’s category. However, many advertisers are unaware that this is not the only way to grow their business with Amazon Ads. In fact, we find that advertisers may be missing opportunities to reach more customers by not accounting for customers’ propensity to shop across multiple categories.
 
