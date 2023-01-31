@@ -9,7 +9,7 @@ tags:
 
 For this visual, I was the sole author. I worked with with internal business teams to determine the leadership and goals of the three businesses within the Small-medium Business Model at Facebook.
 
-:::tip Note:
+:::note Note:
 The software and tools used to complete this doc can be found under **Tags** at the end of the doc.
 
 :::

@@ -6,7 +6,7 @@ tags: [Raspberry Pi, Git, Github, Linux, Google Assistant SDK, VS Code, Google]
 
 # Configure and Test Audio
 
-:::tip Note:
+:::note Note:
 
 For this doc, I was the sole author. To write this Raspberry Pi configuration doc, I worked directly with Google engineers to test and configure the Pi to configuire and test the USB microphone/speaker.
 

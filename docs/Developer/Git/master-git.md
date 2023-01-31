@@ -24,7 +24,7 @@ Instead, we create branches so that we can all work independently of each other.
 
 Let's start creating branches!
 
-:::tip Note:
+:::note Note:
 
 A good way to gain experience is to create branches and merge them into your personal Github account.
 

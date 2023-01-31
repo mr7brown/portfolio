@@ -6,7 +6,7 @@ tags: [Data Analytics, Amazon, Advertising]
 
 # How cross-category ads improve reach for coffee advertisers
 
-:::tip Note:
+:::note Note:
 
 For this doc, I was the sole author. To write this article I collaborated with the lead researcher to understand the data collected for the purchas of improving new-to-brand customer growth.
 

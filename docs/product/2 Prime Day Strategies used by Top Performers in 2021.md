@@ -6,7 +6,7 @@ tags: [Data Analytics, Amazon, Advertising]
 
 # 2 Prime Day ad strategies used by top performers in 2021
 
-:::tip Note:
+:::note Note:
 
 To write this article I collaborated with the lead researcher to understand the data collected for the purchas of improving new-to-brand customer growth. In this 2021 study we analyze two Prime Day advertising strategies leveraged more often by top performers than lower performers on Amazon.
 

@@ -6,7 +6,7 @@ tags: [Data Analytics, Amazon, Advertising]
 
 # Multichannel Investments Help Brands Grow in Amazon’s Store
 
-:::tip Note:
+:::note Note:
 
 To write this article I collaborated with the lead researcher to understand the data collected for the purchas of improving new-to-brand customer growth.
 

@@ -4,29 +4,64 @@
  * work well for content-centric websites.
  */
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: Hind;
+}
+
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #4a2fbd;
-  --ifm-color-primary-dark: #4a2fbd;
-  --ifm-color-primary-darker: #4a2fbd;
-  --ifm-color-primary-darkest: #4a2fbd;
-  --ifm-color-primary-light: #4a2fbd;
-  --ifm-color-primary-lighter: #4a2fbd;
-  --ifm-color-primary-lightest: #4a2fbd
+  --ifm-color-primary: #3369e7;
+  --ifm-color-primary-dark: #3369e7;
+  --ifm-color-primary-darker: #3369e7;
+  --ifm-color-primary-darkest: #3369e7;
+  --ifm-color-primary-light: #3369e7;
+  --ifm-color-primary-lighter: #3369e7;
+  --ifm-color-primary-lightest: #3369e7;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme="dark"] {
-  --ifm-color-primary: #4a2fbd;
-  --ifm-color-primary-dark: #694fd3;
-  --ifm-color-primary-darker: #694fd3;
-  --ifm-color-primary-darkest: #694fd3;
-  --ifm-color-primary-light: #694fd3;
-  --ifm-color-primary-lighter: #694fd3;
-  --ifm-color-primary-lightest: #694fd3;
+  --ifm-color-primary: #00aeff;
+  --ifm-color-primary-dark: #00aeff;
+  --ifm-color-primary-darker: #00aeff;
+  --ifm-color-primary-darkest: #00aeff;
+  --ifm-color-primary-light: #00aeff;
+  --ifm-color-primary-lighter: #00aeff;
+  --ifm-color-primary-lightest: #00aeff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* .menu::before {
+  content: "Ashton G. Brown Documentation";
+  padding-bottom: 2em;
+  color: #00aeff;
+} */
+
+.navbar__link {
+  color: var(--ifm-toc-link-color);
+}
+
+.navbar__title {
+  color: var(--ifm-toc-link-color);
+}
+
+.markdown h1:first-child {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.25em;
 }
 
 /* Hero page styling */
@@ -39,3 +74,37 @@ h1.hero__title {
   color: white;
 }
 
+/*On page alert styling*/
+
+.alert {
+  background-color: #3369e7;
+  color: white;
+}
+
+.alert a {
+  color: white;
+}
+
+.admonitionIcon_node_modules-\@docusaurus-theme-classic-lib-theme-Admonition-styles-module
+  svg {
+  display: inline-block;
+  height: 1.6em;
+  width: 1.6em;
+  fill: white !important;
+}
+
+/* Sidebar styling */
+
+.menu {
+  font-weight: 300;
+}
+
+.table-of-contents__link {
+  color: var(--ifm-toc-link-color);
+  display: block;
+  font-weight: 300;
+}
+
+article {
+  margin-left: 1em;
+}

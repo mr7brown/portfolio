@@ -6,7 +6,7 @@ tags: [Git, Github, Linux, Google Assistant SDK, VS Code, HBO]
 
 # Overview
 
-:::tip Note:
+:::note Note:
 
 This guide assumes that you have access to HBO's GitLab instance and have installed the Gatsby CLI.
 
