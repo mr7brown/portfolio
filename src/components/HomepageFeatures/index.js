@@ -24,7 +24,7 @@ const FeatureList = [
     ),
   },
   {
-    title: "Product docs",
+    title: "Product Docs",
     Svg: require("@site/static/img/UI.svg").default,
     description: (
       <>
