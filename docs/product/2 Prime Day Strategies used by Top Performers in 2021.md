@@ -1,7 +1,7 @@
 ---
 sidebar_label: "2 Prime Day Strategies used by Top Performers in 2021"
 sidebar_position: 2
-tags: [Data Analytics, Amazon, Advertising]
+tags: [Data Analytics, Amazon, Advertising, Data Science]
 ---
 
 # 2 Prime Day ad strategies used by top performers in 2021
