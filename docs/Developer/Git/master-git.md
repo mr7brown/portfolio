@@ -10,7 +10,7 @@ At this point in the Git Collection you should understand what Git is and how to
 
 ## Branching
 
-When working on a team with multiple contributors a best practice is to work with branches. By default, there is a `master` branch that is used for the `HEAD`. Essentially, branching allows you to work independently, while not impacting the main source of the information or code. First, let's look at an example of how this works at HBO (and most companies), then we will go through an exercise.
+When working on a team with multiple contributors a best practice is to work with branches. By default, there is a `master` branch that is used for the `HEAD`. Essentially, branching allows you to work independently, while not impacting the main source of the information or code. First, let's look at an example of how this works.
 
 ### Branching Example
 

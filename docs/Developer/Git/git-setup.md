@@ -6,15 +6,13 @@ tags: [Git, Github, Unix, VS Code, HBO]
 
 # Overview
 
-Welcome back! This post is designed to help you begin creating in a docs as code environment.One question frequently asked by aspiring technical writers is: How do I gain the requisite experience? And typically, responders say to join an open source project or something similar to that.
+One question frequently asked by aspiring technical writers is: How do I gain the requisite experience? And typically, responders say to join an open source project or something similar. While working on projects is a great way to gain experience, technical writers can also begin simply by setting up their own git-based environement—even if it just used to publish notes or a personal portfolio.
 
-My answer is different. Instead of jumping on an open-source project that may not interest you and skipping steps in the learning process, you should start by setting up a remote repository of your own.
-
-Let's get started.
+We will cover how to set up your environment in this article.
 
 ## Prerequisites
 
-1. A text editor. My favorite is [Visual Studio Code](https://code.visualstudio.com/), but [Atom](https://atom.io/) and [Xcode](https://developer.apple.com/xcode/) are good options too.
+1. A text editor. The most popular editor and IDE is [Visual Studio Code](https://code.visualstudio.com/), but [Atom](https://atom.io/) and [Xcode](https://developer.apple.com/xcode/) are good options too.
 1. [Github account](https://github.com/).
 1. For MacOS, you will need [Xcode and Command Line Tools](https://developer.apple.com/xcode/resources/) as well as Git. To check if you have Command Line Tools installed, open a new [terminal window](https://www.wikihow.com/Open-a-Terminal-Window-in-Mac) and run:
 
@@ -25,9 +23,9 @@ $ xcode-select -v
 
 ## Quick Note on the Terminal
 
-Before working with Git, it is important to note that the terminal is a powerful application used to modify a computer's file system. Whenever working with it, be sure that you fully understand the how it works or you can cause major problems.
+Before working with Git, it is important to note that the terminal is a tool used to modify a computer's file system. Whenever working with it, be sure that you fully understand the how it works or you can cause major problems.
 
-To ensure that you are working from a place that won't harm your computer, you should work from the `/desktop`.
+To ensure that you are working from a place that won't harm your computer, you should work from your `/desktop` or another folder. If you don't change to the desktop or another folder, you run the risk of making global changes to your file system, which can be a challenege to reverse.
 
 To begin, open a new terminal window and run:
 
@@ -57,23 +55,26 @@ For some, it is easier to understand the commands before using them. For others 
 In this excercise, you will:
 
 1. Create and initialize a local Git repo.
-1. Create and modify new files
+1. Create and modify new files.
 
 ### 1. Creating a Git Repository
 
-For this exercise we will work from the desktop - so it is easy to find and delete later.
+As stated earlier, we will work from the Desktop for this tutorial.
 
 1. Create a new project folder:
 
 ```
+# Change terminal location to desktop
 $ cd desktop
+# Create a new project folder
 $ mkdir new-git-repo
+# Change terminal location to the new folder
 $ cd new-git-repo
 ```
 
 This takes you from your `/home` directory to the `home/desktop` directory, creates a new repository `<new-git-repo>`, and then changes your working directory to the new folder `home/desktop/new-git-repo` .
 
-1. Check Git status
+2. Check Git status
 
 ```
 # This tells you the current status of the repo
@@ -82,14 +83,14 @@ $ git status
 
 Since you have not initialized a Git repository, you will receive an error message (this is expected).
 
-1. Initialize Git repository:
+3. Initialize Git repository:
 
 ```
 # This tells Git to begin indexing the folder and monitoring it for updates
 $ git init
 ```
 
-1. Check to be sure that Git is working
+4. Check to be sure that Git is working
 
 ```
 # This tells you the current status
@@ -109,20 +110,20 @@ Before you can add a remote Github repository, you need to have at least one fil
 $ touch notes.md
 ```
 
-1. Check to make sure Git recognizes the new file:
+2. Check to make sure Git recognizes the new file:
 
 ```
 # You should now see "notes.md" listed.
-ls
+$ git status
 ```
 
-1. Add the file so git can begin tracking the file:
+3. Add the file so git can begin tracking the file:
 
 ```
 $ git add notes.md
 ```
 
-1. Commit the file to `HEAD`:
+4. Commit the file to `HEAD`:
 
 ```
 $ git commit -m "<enter descriptive message>"
@@ -143,46 +144,43 @@ $ git remote add origin <url for remote repo>
 $ git push - u origin master
 ```
 
-### 4. Final Step - Working with the Local and Remote Repositories
+### 4. Working with the Local and Remote Repositories
 
-Now that the local repository `<git-new-repo>` is connected to your remote Github repository, you can `push` your content, code, or whatever to a web-based storage location.
-
-All you need to do is make an edit to the repo. Let's do that:
+Now that the local repository `<git-new-repo>` is connected to your remote Github repository, you can `push` your content to a cloud-based storage location.
 
 1. Open your text editor (Visual Studio Code, Atom, etc.).
-1. Navigate to the desktop and open the `<new-git-repo>` folder.
+2. Navigate to the desktop and open the `<new-git-repo>` folder.
 
-- If using Visual Studio Code, type **Cmd** + **o** to open finder.
+   - If using Visual Studio Code, type **Cmd** + **o** to open finder.
 
 You should now see the contents of the `<new-git-repo>`, which contains the blank `notes.md` file. If you edit the file by entering "Hello, World!" and save the file, Git will recognize that the file has changed.
 
 To check this:
 
-1. Go back to your terminal (be sure that your terminal is pointed to the `<new-git-repo>`) and run:
+3. Navigat to your open terminal (be sure that your terminal is pointed to the `<new-git-repo>`) and run:
 
 ```
-# You should see "modified: notes.md"
 $ git status
 ```
 
-1. Now you need to `add` the modified file to the `index`:
+4. `add` the modified file to the `index`:
 
 ```
 $ git add notes.md
 ```
 
-1. `commit` the changes to the `HEAD`:
+5. `commit` changes and update the `HEAD`:
 
 ```
 $ git commit -m "<enter descriptive message>"
 ```
 
-1. `push` the changes to Github:
+6. `push` changes to Github:
 
 ```
 $ git push
 ```
 
-That's it. If refresh your Github repository, then click on the `notes.md` file, you should see "Hello World!" displayed.
+That's it! Refresh your Github repository, then click on the `notes.md` file and you should see "Hello World!" displayed.
 
-The process for creating, updating, and maintaining the repository genrally follows the flow in the exercise, and most of what is expected of technical writers in regards to Git and managing docs as code can be found in this post.
+The process for creating, updating, and maintaining a repository genrally follows the flow in the exercise, and most of what is expected of technical writers in regards to Git and managing docs as code can be found in this post.
