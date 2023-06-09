@@ -75,7 +75,7 @@ const config = {
           //   position: "right",
           // },
           {
-            href: "https://drive.google.com/file/d/1ui81pGcaMe3-oVA-w57roe4YxnonUmlC/view?usp=sharing",
+            href: "https://drive.google.com/file/d/1BaiCo8g8DZeD1Da1IWaaney1msv4-Z48/view?usp=sharing",
             label: "Resume",
             position: "right",
           },
